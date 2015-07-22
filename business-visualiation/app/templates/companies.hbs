@@ -1,6 +1,6 @@
 <ul class="company-list">
     {{#each company in model}}
-        <li>{{company.name}}</li>
+        <li>{{link-to company.name 'company' company}}</li>
     {{/each}}
 </ul>
 
